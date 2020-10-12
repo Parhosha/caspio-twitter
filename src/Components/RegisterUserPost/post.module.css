@@ -1,0 +1,94 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  color: white;
+}
+.main {
+  width: 700px;
+  margin: 0 auto;
+  display: flex;
+}
+.contentInfo {
+  width: 400px;
+  margin: 0 auto;
+}
+.contentInfo h1 {
+  padding: 100px 0;
+}
+.contentInfo h1 a {
+  text-decoration: none;
+  color: white;
+}
+.contentInfo img {
+  margin: 0 auto;
+  display: inline-block;
+}
+.contentInfo p {
+  padding: 5px 0;
+  border-bottom: 1px solid gray;
+}
+h1 {
+  color: white;
+  padding: 20px 40px;
+  font-size: 24px;
+  border: 1px solid #38444d;
+}
+.user {
+  width: 550px;
+  border: 1px solid #38444d;
+  height: 120px;
+  display: flex;
+  color: white;
+}
+.user a:visited,
+.user a:active,
+.user p {
+  color: white;
+}
+.user img {
+  box-shadow: 1px 1px 10px gray;
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+  margin: 20px 40px;
+  border-radius: 50px;
+}
+.user .info {
+  width: 400px;
+  display: inline-block;
+}
+.user .info input,
+.user .info p {
+  width: 300px;
+  border: none;
+  margin: 30px 0;
+  background-color: inherit;
+}
+.user .info input::placeholder {
+  color: white !important;
+  font-size: 12px;
+  background-color: inherit;
+}
+.user .info input:focus {
+  outline: none;
+}
+.user .info p {
+  padding: 5px 0px;
+}
+.content {
+  width: 150px;
+  padding-top: 80px;
+  display: inline-block;
+}
+.content li {
+  padding: 20px;
+  list-style: none;
+}
+.content li a {
+  text-decoration: none;
+  color: white;
+}
+.editButton {
+  display: inline-block;
+  padding: 0 20px;
+}
